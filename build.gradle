@@ -4,7 +4,7 @@ plugins {
 }
 version = mod_version
 group = 'org.mcenvision.drunir'
-base { archivesName = 'drunir-collection-neoforge-1.21.1' }
+base { archivesName = 'landofdrunir-neoforge-1.21.1' }
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 repositories { mavenCentral() }
 dependencies {

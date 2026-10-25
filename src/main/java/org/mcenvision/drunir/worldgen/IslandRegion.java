@@ -4,10 +4,10 @@ import java.util.SplittableRandom;
 import java.util.function.Predicate;
 
 public record IslandRegion(int centerX, int centerZ, long shapeSeed) {
-    public static final int RADIUS = 512;
+    public static final int RADIUS = 256;
     public static final int FOREST_INSET = 32;
-    public static final int OCEAN_RADIUS = 768;
-    public static final int BLEND_RADIUS = 1024;
+    public static final int OCEAN_RADIUS = 512;
+    public static final int BLEND_RADIUS = 768;
 
     public static IslandRegion fromSeed(long seed) {
         return candidate(seed, 0);

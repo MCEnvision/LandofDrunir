@@ -2,7 +2,7 @@
 
 Install mod JARs only from a source you trust. Minecraft mods execute with the permissions of the game process. Keep world backups and install the same build on clients and servers.
 
-Report exploitable defects through the repository's [private vulnerability reporting form](https://github.com/MCEnvision/drunir-collection/security/advisories/new). Include the Minecraft, NeoForge, Java, and mod versions, reproduction steps in a disposable world, and the expected and observed results. Remove access tokens, private server addresses, personal information, and unrelated logs before sharing evidence. Use [Issues](https://github.com/MCEnvision/drunir-collection/issues) for ordinary bugs and feature requests.
+Report exploitable defects through the repository's [private vulnerability reporting form](https://github.com/MCEnvision/LandofDrunir/security/advisories/new). Include the Minecraft, NeoForge, Java, and mod versions, reproduction steps in a disposable world, and the expected and observed results. Remove access tokens, private server addresses, personal information, and unrelated logs before sharing evidence. Use [Issues](https://github.com/MCEnvision/LandofDrunir/issues) for ordinary bugs and feature requests.
 
 The current source targets Minecraft 1.21.1 and NeoForge 21.1.259. Earlier experimental builds may lack fixes present in the current product branch. No response time or compatibility with arbitrary mod combinations is guaranteed.
 

@@ -156,7 +156,7 @@ def main():
                          for name in CONTENT['textures'] if name.startswith('trims/color_palettes/')}
     }]})
 
-    for name, label in [('blocks', 'Drunir Blocks'), ('items', 'Drunir Items'), ('creatures', 'Drunir Creatures'), ('textures', 'Drunir Texture Gallery')]:
+    for name, label in [('blocks', 'LandofDrunir Blocks'), ('items', 'LandofDrunir Items'), ('creatures', 'LandofDrunir Creatures'), ('textures', 'LandofDrunir Texture Gallery')]:
         LANGUAGE['tab.landofdrunir.' + name] = label
     LANGUAGE['biome.landofdrunir.golden_birch_shore'] = 'Golden Birch Shore'
     LANGUAGE['biome.landofdrunir.yellow_tree_forest'] = 'Yellow Tree Forest'

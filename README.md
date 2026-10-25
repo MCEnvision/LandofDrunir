@@ -1,15 +1,35 @@
-# Drunir Collection
+# LandofDrunir
 
-A creative content collection for Minecraft 1.21.1 and NeoForge 21.1.259 or later within the 21.1 series. Requires Java 21.
+LandofDrunir continues the original [LandOfDrunir project](https://github.com/sammmmy1628/LandOfDrunir) on **Minecraft 1.21.1 and NeoForge**. **EnVy is the head developer**, working with **Sammy**, the original project creator and artwork collaborator who supplied the original artwork for this continuation.
 
-Install the mod JAR in the `mods` folder of both the client and server. Open the Drunir Blocks, Drunir Boulders, Drunir Items, Drunir Creatures, and Drunir Texture Gallery creative tabs. The Creatures tab contains only the Deer Spawn Egg; other registered creatures and eggs remain available through commands for existing-world compatibility. Peach, Coral, Violet, Mint, and Lime Grass Blocks provide five additional decorative colors in Drunir Blocks. They use the supplied texture on every face, with position based rotations, and do not generate naturally. The gallery exposes every source texture, including alternate icons, armor sheets, and trim palettes.
+The current focus is a mystical golden island, a useful creative building collection, and a maintainable foundation for continued development. This build does not yet reproduce every feature of the original mod.
 
-This content build provides decorative blocks, tools, wearable armor, food, and creatures with their original models. Content is available through creative inventory and commands. Survival recipes, a custom dimension, and original creature combat mechanics are outside this build.
+## Play
 
-Yellow Tree Forest generates once per world in the Overworld. The island is approximately 1,000 blocks across, with yellow grass over regular dirt, birch logs, custom yellow birch leaves, and an ocean belt. A narrow sandy shoreline sinks into shallow water, with a sandy gold transition into the forest. Low drifting mist gathers where the beach meets the water. The irregular outer forest is densest near the coast and thins toward a tree-free clearing with a 10 block radius at the saved center. Trunks, branches, and canopies stay outside that clearing. Rounded and branching golden birches retain their familiar silhouettes, with small, medium, and tall variants, varying crown widths, curved stems, forks, and umbrellas. Trunk heights range from approximately 5 to 22 blocks before any extra lift for nearby slopes. Branching forms become more frequent inland. Taller trunks keep three blocks of walking clearance beneath the leaves, measured against nearby dirt even on slopes. Covered branch tips and supported leaves keep their canopies intact. Softly glowing Sun Hollies fill the glades. Fog covers the reef and warm beach, fading out 16 blocks into full yellow grass. Compasses spin and the F3 coordinate display drifts throughout the island and its protected waters. Other ground plants, natural mob spawns, caves, and ordinary structures are excluded from the island and its protected waters. Coral reefs, short and tall seagrass, and sea pickles break up the sandy seabed around the island. Six submerged shipwrecks are the deliberate structure exception. Blueschist and sandstone occur as loose stones and connected outcrops in 128 distinct short, narrow spike profiles. Their footprint stays within three blocks across and their exposed height is about one and a half to two and a half blocks. A single skinny tip rises from small buried shoulders, with solid bodies and vanilla slab and stair caps. Rotations and stone choices add further variety. Matching blueschist and sandstone rock slabs and stairs are also available in the Blocks tab for building. The Drunir Boulders tab offers 60 building pieces across five sizes and four forms. The rocks use broad cuboid masses and coarse stair-like cuts that follow Minecraft's block style. Sandstone pieces use the original fine-grained top textures. Add matching stone pieces to grow a boulder and stack larger formations. Touching modular boulders of the same stone automatically join into a solid formation, closing interior seams while preserving exposed rough edges. Use `/drunir island` to find its saved coordinates. Its first location avoids existing terrain; existing chunks are never rebuilt. Standard, Large Biomes, and Amplified Overworld generators are supported.
+Use Java 21 and NeoForge 21.1.259 or a later release in the 21.1 series. Install the same `landofdrunir-neoforge-1.21.1-0.1.0.jar` in the client and server `mods` folders. Replace older JARs rather than keeping both. The mod ID remains `landofdrunir`, so another build with that ID cannot be installed alongside it.
 
-Natural grass, sand, raw stone, ores, leaves, flowers, and saplings use four equally likely horizontal texture rotations. Minecraft selects a consistent rotation from each block position, so large surfaces have less repetition and keep their appearance after loading again.
+- **Yellow Tree Forest** is one seed selected island per supported Overworld, roughly **500 blocks across at its nominal coast**. Beaches, reefs, and the surrounding ocean extend beyond the forest.
+- The outer woodland is dense and irregular, thinning toward a **10 block radius clearing** at the center. Rounded and branching golden birches have varied heights and keep three clear blocks beneath their leaves.
+- Sun Hollies, warm sand, reefs, seagrass, six sunken wrecks, and short stone spikes give the island its character. Coastal fog fades out 16 blocks into full yellow grass. Compasses spin and F3 coordinates drift inside the sanctuary; actual player positions stay unchanged.
+- Ordinary structures, caves, and natural mob spawns are excluded from the sanctuary. The six wrecks are intentional exceptions. Deer is the only creature shown in the creative tab; it does not currently spawn naturally.
+- Creative tabs provide decorative blocks, five extra grass colors, items, wearable armor, deer, a texture gallery, and 60 modular boulder choices. Matching boulders join and stack for player builds.
 
-Artwork and model geometry are from [LandOfDrunir](https://github.com/sammmmy1628/LandOfDrunir), copyright 2024 Christofmeg, used under the [MIT license](LICENSE). This mod uses the `landofdrunir` namespace and cannot be installed alongside another mod with that identifier.
+Use `/drunir island` to find the saved island center. Standard, Large Biomes, and Amplified Overworld generators are supported. Terrain changes affect new chunks only. Already generated islands keep their old size and blocks; use a fresh disposable world to inspect the smaller island.
 
-Build with Java 21 and `./gradlew build`. Regenerate the content resources with `./gradlew generateResources`; this requires Python 3. See the [documentation index](docs/README.md), [technical documentation](docs/general/documentation.md), and [security reporting guidance](docs/security/documentation.md).
+Survival recipes, custom ore generation, another dimension, progression, and the original creatures' advanced abilities are not implemented in this build. Some inventory artwork is available as preview items rather than fully functional content. See the [technical overview](docs/general/documentation.md) for the exact scope.
+
+## Develop
+
+With Java 21 and Python 3 installed:
+
+```sh
+./gradlew build
+```
+
+The JAR is written to `build/libs/`. The build runs Java tests, resource tool tests, resource generation, and validation. Use `./gradlew runClient` or `./gradlew runServer` for a development runtime. Work in disposable worlds and follow the Minecraft EULA for a server.
+
+Start with the [documentation index](docs/README.md), [developer guide and EnVy's design direction](docs/dev/documentation.md), and [security reporting guidance](docs/security/documentation.md). Report ordinary bugs through [Issues](https://github.com/MCEnvision/LandofDrunir/issues).
+
+## Credits and license
+
+EnVy leads development and the island's design direction. Sammy supplies the original project's artwork and works with EnVy on this continuation. Original textures, model geometry, and animations originate from [LandOfDrunir](https://github.com/sammmmy1628/LandOfDrunir). The original [MIT license](LICENSE), including its 2024 Christofmeg copyright notice, is retained and packaged with the mod.

@@ -15,7 +15,7 @@ class GoldenGroveTest {
         var region = new IslandRegion(0, 0, 7192);
         var sites = new ArrayList<GroveLayout.Site>();
         var offsets = new HashSet<String>();
-        for (int x = 24; x <= 30; x++) {
+        for (int x = IslandRegion.RADIUS / 16 - 8; x <= IslandRegion.RADIUS / 16 - 2; x++) {
             for (int z = -5; z <= 5; z++) {
                 var chunk = GroveLayout.sites(region, x, z);
                 assertEquals(chunk, GroveLayout.sites(region, x, z));
@@ -39,9 +39,12 @@ class GoldenGroveTest {
         int[] chunks = new int[3];
         for (int x = -33; x <= 33; x++) {
             for (int z = -33; z <= 33; z++) {
-                double inland = region.forestEdgeDistance(x * 16 + 8, z * 16 + 8);
-                int band = inland >= 0 && inland < 70 ? 0 : inland >= 160 && inland < 230 ? 1
-                        : inland >= 350 ? 2 : -1;
+                int blockX = x * 16 + 8, blockZ = z * 16 + 8;
+                if (!region.forest(blockX, blockZ)) continue;
+                double outward = region.distance(blockX, blockZ)
+                        / (region.coastRadius(blockX, blockZ) - IslandRegion.FOREST_INSET);
+                int band = outward >= 0.75 ? 0 : outward >= 0.4 && outward <= 0.6 ? 1
+                        : outward <= 0.3 ? 2 : -1;
                 if (band < 0) continue;
                 chunks[band]++;
                 counts[band] += GroveLayout.sites(region, x, z).size();
@@ -50,6 +53,7 @@ class GoldenGroveTest {
         double edge = (double) counts[0] / chunks[0];
         double middle = (double) counts[1] / chunks[1];
         double center = (double) counts[2] / chunks[2];
+        for (int count : chunks) assertTrue(count > 0, "Every density band must sample real forest chunks");
         assertTrue(edge > middle * 1.5);
         assertTrue(middle > center * 1.5);
     }
@@ -92,7 +96,7 @@ class GoldenGroveTest {
         int edgeUnusual = 0, centerUnusual = 0;
         for (long seed = 0; seed < 512; seed++) {
             var edge = GoldenTreeShape.create(seed, GroveLayout.wonder(15));
-            var center = GoldenTreeShape.create(seed, GroveLayout.wonder(440));
+            var center = GoldenTreeShape.create(seed, GroveLayout.wonder(IslandRegion.RADIUS - IslandRegion.FOREST_INSET - 20));
             edgeForms.add(edge.form());
             centerForms.add(center.form());
             if (edge.form() == GoldenTreeShape.Form.BRANCHING) edgeUnusual++;

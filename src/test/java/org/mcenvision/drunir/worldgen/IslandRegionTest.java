@@ -6,6 +6,23 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class IslandRegionTest {
     @Test
+    void islandHasAHalfKilometreCoastAndASeparateOceanBelt() {
+        for (long seed : new long[]{0, 1, -1, Long.MIN_VALUE, Long.MAX_VALUE}) {
+            var island = IslandRegion.fromSeed(seed);
+            for (int direction = 0; direction < 360; direction += 5) {
+                double angle = Math.toRadians(direction);
+                int dx = (int) Math.round(Math.cos(angle) * 300);
+                int dz = (int) Math.round(Math.sin(angle) * 300);
+                double diameter = island.coastRadius(island.centerX() + dx, island.centerZ() + dz)
+                        + island.coastRadius(island.centerX() - dx, island.centerZ() - dz);
+                assertTrue(diameter >= 500 && diameter <= 525, "Keep the nominal coast near five hundred blocks across.");
+                assertFalse(island.forest(island.centerX() + dx, island.centerZ() + dz));
+                assertTrue(island.sanctuary(island.centerX() + dx, island.centerZ() + dz));
+            }
+        }
+    }
+
+    @Test
     void coastDescendsContinuouslyThroughSeaLevelIntoTheSeabed() {
         for (long seed : new long[]{0, 8675309, -1}) {
             var island = IslandRegion.fromSeed(seed);
@@ -15,7 +32,7 @@ class IslandRegionTest {
                 boolean dry = false;
                 boolean shallow = false;
                 boolean deep = false;
-                for (int radius = 350; radius < 750; radius++) {
+                for (int radius = IslandRegion.RADIUS - 162; radius < IslandRegion.RADIUS + 238; radius++) {
                     int x = island.centerX() + (int) Math.round(Math.cos(angle) * radius);
                     int z = island.centerZ() + (int) Math.round(Math.sin(angle) * radius);
                     double height = island.surfaceHeight(x, z);
@@ -76,8 +93,8 @@ class IslandRegionTest {
         IslandRegion island = IslandRegion.fromSeed(0);
         for (int direction = 0; direction < 360; direction += 3) {
             double angle = Math.toRadians(direction);
-            int x = island.centerX() + (int) Math.round(Math.cos(angle) * 740);
-            int z = island.centerZ() + (int) Math.round(Math.sin(angle) * 740);
+            int x = island.centerX() + (int) Math.round(Math.cos(angle) * (IslandRegion.OCEAN_RADIUS - 28));
+            int z = island.centerZ() + (int) Math.round(Math.sin(angle) * (IslandRegion.OCEAN_RADIUS - 28));
             assertFalse(island.forest(x, z));
             assertFalse(island.beach(x, z));
             assertEquals(39, island.surfaceHeight(x, z), 0.001);

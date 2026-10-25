@@ -4,9 +4,9 @@ license="MIT"
 [[mods]]
 modId="landofdrunir"
 version="${mod_version}"
-displayName="Drunir Collection"
-authors="EnVy"
-description="A creative content collection using the Land of Drunir artwork."
+displayName="LandofDrunir"
+authors="EnVy, Sammy"
+description="The LandofDrunir continuation for NeoForge, led by EnVy with original artwork supplied by Sammy."
 [[mixins]]
 config="landofdrunir.mixins.json"
 [[dependencies.landofdrunir]]
