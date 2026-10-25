@@ -12,7 +12,11 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.4'
     testRuntimeOnly 'com.google.code.gson:gson:2.10.1'
 }
-tasks.named('test') { useJUnitPlatform() }
+tasks.named('test') {
+    useJUnitPlatform()
+    workingDir layout.buildDirectory.dir('test-runtime')
+    doFirst { workingDir.mkdirs() }
+}
 neoForge {
     version = project.neo_version
     runs {

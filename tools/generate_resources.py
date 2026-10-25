@@ -17,7 +17,7 @@ WRITTEN = set()
 
 def write(path, content):
     relative = PurePosixPath(path)
-    if relative.is_absolute() or '..' in relative.parts:
+    if '\\' in path or ':' in path or relative.is_absolute() or '..' in relative.parts:
         raise ValueError(f'Resource path must stay inside the generated directory: {path}')
     target = OUTPUT / relative
     if OUTPUT.resolve() != OUTPUT.absolute() or any(part.is_symlink()
