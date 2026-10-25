@@ -78,6 +78,6 @@ def generate(catalog, asset, write, language):
     write('data/landofdrunir/worldgen/configured_feature/island_boulders.json', {
         'type': 'minecraft:simple_block', 'config': {
             'to_place': {'type': 'minecraft:weighted_state_provider', 'entries': entries}}})
-    language['tab.landofdrunir.boulders'] = 'Drunir Boulders'
+    language['tab.landofdrunir.boulders'] = 'LandofDrunir Boulders'
     language['tooltip.landofdrunir.boulder.build'] = 'Add a matching stone piece to build this boulder up.'
     language['tooltip.landofdrunir.boulder.separate'] = 'Sneak to place a separate piece.'

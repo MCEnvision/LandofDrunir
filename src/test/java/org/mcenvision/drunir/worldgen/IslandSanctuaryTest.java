@@ -9,7 +9,7 @@ class IslandSanctuaryTest {
     void protectedBoundsCoverCrossingStructuresWithoutBlockingDistantTerrain() {
         var island = new IslandRegion(0, 0, 12);
         assertTrue(island.sanctuary(0, 0));
-        assertTrue(island.intersectsSanctuary(760, -8, 790, 8));
+        assertTrue(island.intersectsSanctuary(IslandRegion.OCEAN_RADIUS - 8, -8, IslandRegion.OCEAN_RADIUS + 22, 8));
         assertTrue(island.intersectsSanctuary(-2000, -2000, 2000, 2000));
         assertFalse(island.intersectsSanctuary(800, 800, 850, 850));
         assertFalse(island.sanctuary(IslandRegion.OCEAN_RADIUS, 0));

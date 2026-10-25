@@ -556,10 +556,10 @@
   "item.landofdrunir.texture.block.grass": "Texture: block/grass",
   "item.landofdrunir.texture.block.grass4": "Texture: block/grass4",
   "item.landofdrunir.texture.block.grass5": "Texture: block/grass5",
-  "tab.landofdrunir.blocks": "Drunir Blocks",
-  "tab.landofdrunir.items": "Drunir Items",
-  "tab.landofdrunir.creatures": "Drunir Creatures",
-  "tab.landofdrunir.textures": "Drunir Texture Gallery",
+  "tab.landofdrunir.blocks": "LandofDrunir Blocks",
+  "tab.landofdrunir.items": "LandofDrunir Items",
+  "tab.landofdrunir.creatures": "LandofDrunir Creatures",
+  "tab.landofdrunir.textures": "LandofDrunir Texture Gallery",
   "biome.landofdrunir.golden_birch_shore": "Golden Birch Shore",
   "biome.landofdrunir.yellow_tree_forest": "Yellow Tree Forest",
   "biome.landofdrunir.golden_birch_island": "Yellow Tree Forest",
@@ -629,7 +629,7 @@
   "item.landofdrunir.dark_brown_sandstone_huge_crag_boulder": "Huge Dark Brown Sandstone Boulder (Crag)",
   "item.landofdrunir.dark_brown_sandstone_huge_flat_boulder": "Huge Dark Brown Sandstone Boulder (Flat)",
   "item.landofdrunir.dark_brown_sandstone_huge_cluster_boulder": "Huge Dark Brown Sandstone Boulder (Cluster)",
-  "tab.landofdrunir.boulders": "Drunir Boulders",
+  "tab.landofdrunir.boulders": "LandofDrunir Boulders",
   "tooltip.landofdrunir.boulder.build": "Add a matching stone piece to build this boulder up.",
   "tooltip.landofdrunir.boulder.separate": "Sneak to place a separate piece."
 }

@@ -77,6 +77,6 @@ public final class GroveLayout {
     }
 
     public static double wonder(double forestEdgeDistance) {
-        return Math.clamp(forestEdgeDistance / 380, 0, 1);
+        return Math.clamp(forestEdgeDistance / (IslandRegion.RADIUS - IslandRegion.FOREST_INSET - 32), 0, 1);
     }
 }
