@@ -116,4 +116,4 @@ The server sends a bounded `landofdrunir:island_boundary` snapshot on login and 
 
 ## Public source and reporting
 
-The public source repository is [Drunir Collection](https://github.com/MCEnvision/drunir-collection). See the [documentation index](../README.md) for contributor and security guidance. Run `./gradlew build` before submitting changes to the retained `neoforge-1.21.1/0.1.0` product branch. Pull requests preserve the code review boundary. Weekly dependency updates cover Gradle and any GitHub Actions manifests.
+The public source repository is [Drunir Collection](https://github.com/MCEnvision/drunir-collection). See the [documentation index](../README.md) for contributor and security guidance. Run `./gradlew build` before submitting changes to the retained `neoforge-1.21.1/0.1.0` product branch. Pull requests preserve the code review boundary. Weekly dependency updates cover Gradle. There are no GitHub Actions manifests in this source tree.
