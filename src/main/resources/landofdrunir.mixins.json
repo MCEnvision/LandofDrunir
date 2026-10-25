@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "org.mcenvision.drunir.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "RandomStateMixin",
+    "MultiNoiseBiomeSourceMixin",
+    "BiomeSourceMixin",
+    "SurfaceSystemMixin",
+    "IslandCarverMixin",
+    "IslandStructureMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "CompassVeilMixin"
+  ]
+}

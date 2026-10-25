@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "landofdrunir:block/fluxroot",
+        "y": 0
+      },
+      {
+        "model": "landofdrunir:block/fluxroot",
+        "y": 90
+      },
+      {
+        "model": "landofdrunir:block/fluxroot",
+        "y": 180
+      },
+      {
+        "model": "landofdrunir:block/fluxroot",
+        "y": 270
+      }
+    ]
+  }
+}

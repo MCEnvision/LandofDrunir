@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "landofdrunir:block/ribwort",
+        "y": 0
+      },
+      {
+        "model": "landofdrunir:block/ribwort",
+        "y": 90
+      },
+      {
+        "model": "landofdrunir:block/ribwort",
+        "y": 180
+      },
+      {
+        "model": "landofdrunir:block/ribwort",
+        "y": 270
+      }
+    ]
+  }
+}

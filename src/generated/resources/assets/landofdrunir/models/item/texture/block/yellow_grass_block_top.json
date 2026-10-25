@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "landofdrunir:block/yellow_grass_block_top"
+  }
+}

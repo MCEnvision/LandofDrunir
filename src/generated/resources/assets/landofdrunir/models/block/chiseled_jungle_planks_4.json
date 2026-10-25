@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "landofdrunir:block/chiseled_jungle_planks_4",
+    "end": "landofdrunir:block/chiseled_jungle_planks_top"
+  }
+}

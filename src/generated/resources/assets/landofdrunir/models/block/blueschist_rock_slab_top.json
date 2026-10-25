@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "landofdrunir:block/blueschist",
+    "top": "landofdrunir:block/blueschist",
+    "side": "landofdrunir:block/blueschist"
+  }
+}

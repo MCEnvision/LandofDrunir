@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "landofdrunir:block/grassy_blueschist",
+        "y": 0
+      },
+      {
+        "model": "landofdrunir:block/grassy_blueschist",
+        "y": 90
+      },
+      {
+        "model": "landofdrunir:block/grassy_blueschist",
+        "y": 180
+      },
+      {
+        "model": "landofdrunir:block/grassy_blueschist",
+        "y": 270
+      }
+    ]
+  }
+}

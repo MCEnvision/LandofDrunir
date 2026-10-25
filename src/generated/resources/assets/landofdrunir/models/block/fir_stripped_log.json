@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "landofdrunir:block/fir_stripped_log",
+    "end": "landofdrunir:block/stripped_fir_log_top"
+  }
+}

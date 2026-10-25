@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "landofdrunir:block/dark_brown_sandstone_pillar_top"
+  }
+}

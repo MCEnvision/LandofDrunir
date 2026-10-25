@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/block",
+  "loader": "landofdrunir:connected_boulder",
+  "fallback": "landofdrunir:block/brown_sandstone_boulder_piece_rounded_4",
+  "textures": {
+    "stone": "landofdrunir:block/brown_sandstone_top",
+    "particle": "landofdrunir:block/brown_sandstone_top"
+  }
+}

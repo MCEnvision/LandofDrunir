@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "landofdrunir:block/chiseled_bamboo_planks_3"
+    },
+    "axis=z": {
+      "model": "landofdrunir:block/chiseled_bamboo_planks_3",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "landofdrunir:block/chiseled_bamboo_planks_3",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

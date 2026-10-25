@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "landofdrunir:block/chiseled_date_palm_planks_4"
+    },
+    "axis=z": {
+      "model": "landofdrunir:block/chiseled_date_palm_planks_4",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "landofdrunir:block/chiseled_date_palm_planks_4",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

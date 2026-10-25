@@ -1,0 +1,8 @@
+{
+  "feature": "landofdrunir:sunken_ship",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

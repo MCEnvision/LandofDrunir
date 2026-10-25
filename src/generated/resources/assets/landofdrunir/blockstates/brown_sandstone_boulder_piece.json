@@ -1,0 +1,388 @@
+{
+  "variants": {
+    "facing=north,form=0,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=0,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=0,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=0,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=0,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=0,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=0,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=0,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=0,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=0,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=0,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=1,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=1,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=1,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=1,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=2,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=2,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=2,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=2,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=1": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=2": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=3": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=4": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=5": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=6": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=7": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=north,form=3,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=east,form=3,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=south,form=3,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    },
+    "facing=west,form=3,layers=8": {
+      "model": "landofdrunir:block/brown_sandstone_boulder_piece"
+    }
+  }
+}

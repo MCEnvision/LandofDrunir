@@ -1,0 +1,129 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sand": "minecraft:block/sand",
+    "grass": "landofdrunir:block/yellow_grass_block_top",
+    "particle": "minecraft:block/sand"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        16.002,
+        0
+      ],
+      "to": [
+        4,
+        16.002,
+        4
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#grass",
+          "uv": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        16.002,
+        0
+      ],
+      "to": [
+        12,
+        16.002,
+        4
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#grass",
+          "uv": [
+            8,
+            0,
+            12,
+            4
+          ],
+          "cullface": "up"
+        }
+      }
+    },
+    {
+      "from": [
+        8,
+        16.002,
+        8
+      ],
+      "to": [
+        12,
+        16.002,
+        12
+      ],
+      "shade": false,
+      "faces": {
+        "up": {
+          "texture": "#grass",
+          "uv": [
+            8,
+            8,
+            12,
+            12
+          ],
+          "cullface": "up"
+        }
+      }
+    }
+  ]
+}

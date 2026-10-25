@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "landofdrunir:block/dark_brown_sandstone_rock_slab"
+    },
+    "type=top": {
+      "model": "landofdrunir:block/dark_brown_sandstone_rock_slab_top"
+    },
+    "type=double": {
+      "model": "landofdrunir:block/dark_brown_sandstone_rock_slab_double"
+    }
+  }
+}

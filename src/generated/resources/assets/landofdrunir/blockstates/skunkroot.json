@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "landofdrunir:block/skunkroot",
+        "y": 0
+      },
+      {
+        "model": "landofdrunir:block/skunkroot",
+        "y": 90
+      },
+      {
+        "model": "landofdrunir:block/skunkroot",
+        "y": 180
+      },
+      {
+        "model": "landofdrunir:block/skunkroot",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "landofdrunir:block/yellow_grass_block_side",
+    "top": "landofdrunir:block/yellow_grass_block_top",
+    "bottom": "minecraft:block/dirt"
+  }
+}

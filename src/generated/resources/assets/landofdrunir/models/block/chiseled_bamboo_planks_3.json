@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "landofdrunir:block/chiseled_bamboo_planks_3",
+    "end": "landofdrunir:block/chiseled_bamboo_planks_top"
+  }
+}

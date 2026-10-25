@@ -1,0 +1,117 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/boar"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/boat/fir"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/bull"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/chest_boat/fir"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/deer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/drippy_goblin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/fire_goblin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/goblin_merchant"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/goblin_minor"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/lightling"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/magmafiend"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/magmafiend_fireball"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/portal_guardian"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/sandstalker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/signs/fir"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:entity/signs/hanging/fir"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/drunite_layer_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/drunite_layer_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/extra_layer_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/extra_layer_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/galeon_layer_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/galeon_layer_2"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/plasmite_layer_1"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "landofdrunir:models/armor/plasmite_layer_2"
+    },
+    {
+      "type": "minecraft:paletted_permutations",
+      "textures": [
+        "minecraft:trims/items/helmet_trim"
+      ],
+      "palette_key": "minecraft:trims/color_palettes/trim_palette",
+      "permutations": {
+        "drunir_drunite": "landofdrunir:trims/color_palettes/drunite",
+        "drunir_drunite_darker": "landofdrunir:trims/color_palettes/drunite_darker",
+        "drunir_galeon": "landofdrunir:trims/color_palettes/galeon",
+        "drunir_galeon_darker": "landofdrunir:trims/color_palettes/galeon_darker",
+        "drunir_magmatite": "landofdrunir:trims/color_palettes/magmatite",
+        "drunir_magmatite_darker": "landofdrunir:trims/color_palettes/magmatite_darker",
+        "drunir_plasmite": "landofdrunir:trims/color_palettes/plasmite",
+        "drunir_plasmite_darker": "landofdrunir:trims/color_palettes/plasmite_darker"
+      }
+    }
+  ]
+}

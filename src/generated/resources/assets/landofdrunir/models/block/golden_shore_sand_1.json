@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "sand": "minecraft:block/sand",
+    "grass": "landofdrunir:block/yellow_grass_block_top",
+    "particle": "minecraft:block/sand"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#sand",
+          "tintindex": 0,
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "landofdrunir:block/chiseled_dark_brown_sandstone",
+    "top": "landofdrunir:block/dark_brown_sandstone_top",
+    "bottom": "landofdrunir:block/dark_brown_sandstone_bottom"
+  }
+}

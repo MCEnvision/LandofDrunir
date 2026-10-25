@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "landofdrunir:block/heather_bush_light_pink"
+  }
+}

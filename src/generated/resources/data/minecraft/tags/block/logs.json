@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "landofdrunir:date_palm_log",
+    "landofdrunir:fir_log",
+    "landofdrunir:fir_stripped_log",
+    "landofdrunir:hollow_acacia_log",
+    "landofdrunir:hollow_birch_log",
+    "landofdrunir:hollow_cherry_log",
+    "landofdrunir:hollow_dark_oak_log",
+    "landofdrunir:hollow_fir_log",
+    "landofdrunir:hollow_jungle_log",
+    "landofdrunir:hollow_mangrove_log",
+    "landofdrunir:hollow_mossy_acacia_log",
+    "landofdrunir:hollow_mossy_birch_log",
+    "landofdrunir:hollow_mossy_cherry_log",
+    "landofdrunir:hollow_mossy_dark_oak_log",
+    "landofdrunir:hollow_mossy_fir_log",
+    "landofdrunir:hollow_mossy_jungle_log",
+    "landofdrunir:hollow_mossy_mangrove_log",
+    "landofdrunir:hollow_mossy_oak_log",
+    "landofdrunir:hollow_mossy_spruce_log",
+    "landofdrunir:hollow_oak_log",
+    "landofdrunir:hollow_spruce_log",
+    "landofdrunir:lightling_log",
+    "landofdrunir:lightling_stripped_log",
+    "landofdrunir:stripped_date_palm_log",
+    "landofdrunir:stripped_fir_log"
+  ]
+}

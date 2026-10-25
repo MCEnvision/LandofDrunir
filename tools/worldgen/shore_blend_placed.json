@@ -1,0 +1,8 @@
+{
+  "feature": "landofdrunir:shore_blend",
+  "placement": [
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

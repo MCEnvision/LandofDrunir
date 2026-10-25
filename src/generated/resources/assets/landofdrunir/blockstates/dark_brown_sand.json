@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "landofdrunir:block/dark_brown_sand",
+        "y": 0
+      },
+      {
+        "model": "landofdrunir:block/dark_brown_sand",
+        "y": 90
+      },
+      {
+        "model": "landofdrunir:block/dark_brown_sand",
+        "y": 180
+      },
+      {
+        "model": "landofdrunir:block/dark_brown_sand",
+        "y": 270
+      }
+    ]
+  }
+}

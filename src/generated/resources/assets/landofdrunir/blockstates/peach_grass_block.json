@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "landofdrunir:block/peach_grass_block",
+        "y": 0
+      },
+      {
+        "model": "landofdrunir:block/peach_grass_block",
+        "y": 90
+      },
+      {
+        "model": "landofdrunir:block/peach_grass_block",
+        "y": 180
+      },
+      {
+        "model": "landofdrunir:block/peach_grass_block",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "landofdrunir:block/stripped_fir_log"
+    },
+    "axis=z": {
+      "model": "landofdrunir:block/stripped_fir_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "landofdrunir:block/stripped_fir_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

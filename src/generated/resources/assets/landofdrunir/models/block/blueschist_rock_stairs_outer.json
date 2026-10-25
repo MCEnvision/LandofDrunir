@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "landofdrunir:block/blueschist",
+    "top": "landofdrunir:block/blueschist",
+    "side": "landofdrunir:block/blueschist"
+  }
+}

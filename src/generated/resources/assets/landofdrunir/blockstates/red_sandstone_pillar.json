@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "landofdrunir:block/red_sandstone_pillar"
+    },
+    "axis=z": {
+      "model": "landofdrunir:block/red_sandstone_pillar",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "landofdrunir:block/red_sandstone_pillar",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

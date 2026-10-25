@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "landofdrunir:item/16x16/drunite_lance_16x16"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "landofdrunir:block/dark_brown_sandstone_pillar",
+    "end": "landofdrunir:block/dark_brown_sandstone_pillar_top"
+  }
+}

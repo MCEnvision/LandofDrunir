@@ -1,0 +1,51 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = mod_version
+group = 'org.mcenvision.drunir'
+base { archivesName = 'drunir-collection-neoforge-1.21.1' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+repositories { mavenCentral() }
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher:1.11.4'
+    testRuntimeOnly 'com.google.code.gson:gson:2.10.1'
+}
+tasks.named('test') { useJUnitPlatform() }
+neoForge {
+    version = project.neo_version
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+    }
+    mods { landofdrunir { sourceSet sourceSets.main } }
+}
+sourceSets.main.resources.srcDir 'src/generated/resources'
+sourceSets.test.compileClasspath += sourceSets.main.compileClasspath
+sourceSets.test.runtimeClasspath += sourceSets.main.compileClasspath
+tasks.register('generateResources', Exec) {
+    commandLine 'python3', 'tools/generate_resources.py'
+}
+tasks.register('validateResources', Exec) {
+    dependsOn 'generateResources'
+    commandLine 'python3', 'tools/validate_resources.py'
+}
+tasks.register('testResourceTools', Exec) {
+    dependsOn 'generateResources'
+    commandLine 'python3', '-B', 'tools/test_resources.py'
+}
+tasks.named('check') { dependsOn 'validateResources', 'testResourceTools' }
+tasks.named('processResources') {
+    dependsOn 'generateResources'
+    inputs.property 'mod_version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand mod_version: project.version
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.withType(Jar).configureEach {
+    from('LICENSE')
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}

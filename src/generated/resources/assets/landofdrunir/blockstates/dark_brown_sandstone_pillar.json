@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "landofdrunir:block/dark_brown_sandstone_pillar"
+    },
+    "axis=z": {
+      "model": "landofdrunir:block/dark_brown_sandstone_pillar",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "landofdrunir:block/dark_brown_sandstone_pillar",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

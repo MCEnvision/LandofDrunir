@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "landofdrunir:block/brown_sandstone_top",
+    "top": "landofdrunir:block/brown_sandstone_top",
+    "side": "landofdrunir:block/brown_sandstone_top"
+  }
+}

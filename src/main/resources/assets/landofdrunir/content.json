@@ -1,0 +1,1661 @@
+{
+  "blocks": [
+    {
+      "name": "blueschist",
+      "kind": "cube",
+      "texture": "blueschist",
+      "random_y_rotation": true
+    },
+    {
+      "name": "blueschist_bricks",
+      "kind": "cube",
+      "texture": "blueschist_bricks"
+    },
+    {
+      "name": "blueschist_wind_gate_horizontal",
+      "kind": "cube",
+      "texture": "blueschist_wind_gate_horizontal"
+    },
+    {
+      "name": "blueschist_wind_gate_vertical",
+      "kind": "cube",
+      "texture": "blueschist_wind_gate_vertical"
+    },
+    {
+      "name": "brown_sand",
+      "kind": "cube",
+      "texture": "brown_sand",
+      "random_y_rotation": true
+    },
+    {
+      "name": "brown_sandstone",
+      "kind": "bottom_top",
+      "side": "brown_sandstone",
+      "top": "brown_sandstone_top",
+      "bottom": "brown_sandstone_bottom",
+      "random_y_rotation": true
+    },
+    {
+      "name": "brown_sandstone_bricks",
+      "kind": "cube",
+      "texture": "brown_sandstone_bricks"
+    },
+    {
+      "name": "brown_sandstone_pillar",
+      "kind": "log",
+      "side": "brown_sandstone_pillar",
+      "end": "brown_sandstone_pillar_top"
+    },
+    {
+      "name": "chiseled_acacia_planks_1",
+      "kind": "log",
+      "side": "chiseled_acacia_planks_1",
+      "end": "chiseled_acacia_planks_top"
+    },
+    {
+      "name": "chiseled_acacia_planks_2",
+      "kind": "log",
+      "side": "chiseled_acacia_planks_2",
+      "end": "chiseled_acacia_planks_top"
+    },
+    {
+      "name": "chiseled_acacia_planks_3",
+      "kind": "log",
+      "side": "chiseled_acacia_planks_3",
+      "end": "chiseled_acacia_planks_top"
+    },
+    {
+      "name": "chiseled_acacia_planks_4",
+      "kind": "log",
+      "side": "chiseled_acacia_planks_4",
+      "end": "chiseled_acacia_planks_top"
+    },
+    {
+      "name": "chiseled_bamboo_planks_1",
+      "kind": "log",
+      "side": "chiseled_bamboo_planks_1",
+      "end": "chiseled_bamboo_planks_top"
+    },
+    {
+      "name": "chiseled_bamboo_planks_2",
+      "kind": "log",
+      "side": "chiseled_bamboo_planks_2",
+      "end": "chiseled_bamboo_planks_top"
+    },
+    {
+      "name": "chiseled_bamboo_planks_3",
+      "kind": "log",
+      "side": "chiseled_bamboo_planks_3",
+      "end": "chiseled_bamboo_planks_top"
+    },
+    {
+      "name": "chiseled_bamboo_planks_4",
+      "kind": "log",
+      "side": "chiseled_bamboo_planks_4",
+      "end": "chiseled_bamboo_planks_top"
+    },
+    {
+      "name": "chiseled_birch_planks_1",
+      "kind": "log",
+      "side": "chiseled_birch_planks_1",
+      "end": "chiseled_birch_planks_top"
+    },
+    {
+      "name": "chiseled_birch_planks_2",
+      "kind": "log",
+      "side": "chiseled_birch_planks_2",
+      "end": "chiseled_birch_planks_top"
+    },
+    {
+      "name": "chiseled_birch_planks_3",
+      "kind": "log",
+      "side": "chiseled_birch_planks_3",
+      "end": "chiseled_birch_planks_top"
+    },
+    {
+      "name": "chiseled_birch_planks_4",
+      "kind": "log",
+      "side": "chiseled_birch_planks_4",
+      "end": "chiseled_birch_planks_top"
+    },
+    {
+      "name": "chiseled_blueschist_bricks",
+      "kind": "cube",
+      "texture": "chiseled_blueschist_bricks"
+    },
+    {
+      "name": "chiseled_brown_sandstone",
+      "kind": "bottom_top",
+      "side": "chiseled_brown_sandstone",
+      "top": "brown_sandstone_top",
+      "bottom": "brown_sandstone_bottom"
+    },
+    {
+      "name": "chiseled_cherry_planks_1",
+      "kind": "log",
+      "side": "chiseled_cherry_planks_1",
+      "end": "chiseled_cherry_planks_top"
+    },
+    {
+      "name": "chiseled_cherry_planks_2",
+      "kind": "log",
+      "side": "chiseled_cherry_planks_2",
+      "end": "chiseled_cherry_planks_top"
+    },
+    {
+      "name": "chiseled_cherry_planks_3",
+      "kind": "log",
+      "side": "chiseled_cherry_planks_3",
+      "end": "chiseled_cherry_planks_top"
+    },
+    {
+      "name": "chiseled_cherry_planks_4",
+      "kind": "log",
+      "side": "chiseled_cherry_planks_4",
+      "end": "chiseled_cherry_planks_top"
+    },
+    {
+      "name": "chiseled_crimson_planks_1",
+      "kind": "log",
+      "side": "chiseled_crimson_planks_1",
+      "end": "chiseled_crimson_planks_top"
+    },
+    {
+      "name": "chiseled_crimson_planks_2",
+      "kind": "log",
+      "side": "chiseled_crimson_planks_2",
+      "end": "chiseled_crimson_planks_top"
+    },
+    {
+      "name": "chiseled_crimson_planks_3",
+      "kind": "log",
+      "side": "chiseled_crimson_planks_3",
+      "end": "chiseled_crimson_planks_top"
+    },
+    {
+      "name": "chiseled_crimson_planks_4",
+      "kind": "log",
+      "side": "chiseled_crimson_planks_4",
+      "end": "chiseled_crimson_planks_top"
+    },
+    {
+      "name": "chiseled_cursed_planks_1",
+      "kind": "log",
+      "side": "chiseled_cursed_planks_1",
+      "end": "chiseled_cursed_planks_top"
+    },
+    {
+      "name": "chiseled_cursed_planks_2",
+      "kind": "log",
+      "side": "chiseled_cursed_planks_2",
+      "end": "chiseled_cursed_planks_top"
+    },
+    {
+      "name": "chiseled_cursed_planks_3",
+      "kind": "log",
+      "side": "chiseled_cursed_planks_3",
+      "end": "chiseled_cursed_planks_top"
+    },
+    {
+      "name": "chiseled_cursed_planks_4",
+      "kind": "log",
+      "side": "chiseled_cursed_planks_4",
+      "end": "chiseled_cursed_planks_top"
+    },
+    {
+      "name": "chiseled_dark_brown_sandstone",
+      "kind": "bottom_top",
+      "side": "chiseled_dark_brown_sandstone",
+      "top": "dark_brown_sandstone_top",
+      "bottom": "dark_brown_sandstone_bottom"
+    },
+    {
+      "name": "chiseled_dark_oak_planks_1",
+      "kind": "log",
+      "side": "chiseled_dark_oak_planks_1",
+      "end": "chiseled_dark_oak_planks_top"
+    },
+    {
+      "name": "chiseled_dark_oak_planks_2",
+      "kind": "log",
+      "side": "chiseled_dark_oak_planks_2",
+      "end": "chiseled_dark_oak_planks_top"
+    },
+    {
+      "name": "chiseled_dark_oak_planks_3",
+      "kind": "log",
+      "side": "chiseled_dark_oak_planks_3",
+      "end": "chiseled_dark_oak_planks_top"
+    },
+    {
+      "name": "chiseled_dark_oak_planks_4",
+      "kind": "log",
+      "side": "chiseled_dark_oak_planks_4",
+      "end": "chiseled_dark_oak_planks_top"
+    },
+    {
+      "name": "chiseled_date_palm_planks_1",
+      "kind": "log",
+      "side": "chiseled_date_palm_planks_1",
+      "end": "chiseled_date_palm_planks_top"
+    },
+    {
+      "name": "chiseled_date_palm_planks_2",
+      "kind": "log",
+      "side": "chiseled_date_palm_planks_2",
+      "end": "chiseled_date_palm_planks_top"
+    },
+    {
+      "name": "chiseled_date_palm_planks_3",
+      "kind": "log",
+      "side": "chiseled_date_palm_planks_3",
+      "end": "chiseled_date_palm_planks_top"
+    },
+    {
+      "name": "chiseled_date_palm_planks_4",
+      "kind": "log",
+      "side": "chiseled_date_palm_planks_4",
+      "end": "chiseled_date_palm_planks_top"
+    },
+    {
+      "name": "chiseled_fir_planks_1",
+      "kind": "log",
+      "side": "chiseled_fir_planks_1",
+      "end": "chiseled_fir_planks_top"
+    },
+    {
+      "name": "chiseled_fir_planks_2",
+      "kind": "log",
+      "side": "chiseled_fir_planks_2",
+      "end": "chiseled_fir_planks_top"
+    },
+    {
+      "name": "chiseled_fir_planks_3",
+      "kind": "log",
+      "side": "chiseled_fir_planks_3",
+      "end": "chiseled_fir_planks_top"
+    },
+    {
+      "name": "chiseled_fir_planks_4",
+      "kind": "log",
+      "side": "chiseled_fir_planks_4",
+      "end": "chiseled_fir_planks_top"
+    },
+    {
+      "name": "chiseled_jungle_planks_1",
+      "kind": "log",
+      "side": "chiseled_jungle_planks_1",
+      "end": "chiseled_jungle_planks_top"
+    },
+    {
+      "name": "chiseled_jungle_planks_2",
+      "kind": "log",
+      "side": "chiseled_jungle_planks_2",
+      "end": "chiseled_jungle_planks_top"
+    },
+    {
+      "name": "chiseled_jungle_planks_3",
+      "kind": "log",
+      "side": "chiseled_jungle_planks_3",
+      "end": "chiseled_jungle_planks_top"
+    },
+    {
+      "name": "chiseled_jungle_planks_4",
+      "kind": "log",
+      "side": "chiseled_jungle_planks_4",
+      "end": "chiseled_jungle_planks_top"
+    },
+    {
+      "name": "chiseled_mangrove_planks_1",
+      "kind": "log",
+      "side": "chiseled_mangrove_planks_1",
+      "end": "chiseled_mangrove_planks_top"
+    },
+    {
+      "name": "chiseled_mangrove_planks_2",
+      "kind": "log",
+      "side": "chiseled_mangrove_planks_2",
+      "end": "chiseled_mangrove_planks_top"
+    },
+    {
+      "name": "chiseled_mangrove_planks_3",
+      "kind": "log",
+      "side": "chiseled_mangrove_planks_3",
+      "end": "chiseled_mangrove_planks_top"
+    },
+    {
+      "name": "chiseled_mangrove_planks_4",
+      "kind": "log",
+      "side": "chiseled_mangrove_planks_4",
+      "end": "chiseled_mangrove_planks_top"
+    },
+    {
+      "name": "chiseled_oak_planks_1",
+      "kind": "log",
+      "side": "chiseled_oak_planks_1",
+      "end": "chiseled_oak_planks_top"
+    },
+    {
+      "name": "chiseled_oak_planks_2",
+      "kind": "log",
+      "side": "chiseled_oak_planks_2_side",
+      "end": "chiseled_oak_planks_top"
+    },
+    {
+      "name": "chiseled_oak_planks_3",
+      "kind": "log",
+      "side": "chiseled_oak_planks_3_side",
+      "end": "chiseled_oak_planks_top"
+    },
+    {
+      "name": "chiseled_oak_planks_4",
+      "kind": "log",
+      "side": "chiseled_oak_planks_4_side",
+      "end": "chiseled_oak_planks_top"
+    },
+    {
+      "name": "chiseled_spruce_planks_1",
+      "kind": "log",
+      "side": "chiseled_spruce_planks_1",
+      "end": "chiseled_spruce_planks_top"
+    },
+    {
+      "name": "chiseled_spruce_planks_2",
+      "kind": "log",
+      "side": "chiseled_spruce_planks_2",
+      "end": "chiseled_spruce_planks_top"
+    },
+    {
+      "name": "chiseled_spruce_planks_3",
+      "kind": "log",
+      "side": "chiseled_spruce_planks_3",
+      "end": "chiseled_spruce_planks_top"
+    },
+    {
+      "name": "chiseled_spruce_planks_4",
+      "kind": "log",
+      "side": "chiseled_spruce_planks_4",
+      "end": "chiseled_spruce_planks_top"
+    },
+    {
+      "name": "chiseled_warped_planks_1",
+      "kind": "log",
+      "side": "chiseled_warped_planks_1",
+      "end": "chiseled_warped_planks_top"
+    },
+    {
+      "name": "chiseled_warped_planks_2",
+      "kind": "log",
+      "side": "chiseled_warped_planks_2",
+      "end": "chiseled_warped_planks_top"
+    },
+    {
+      "name": "chiseled_warped_planks_3",
+      "kind": "log",
+      "side": "chiseled_warped_planks_3",
+      "end": "chiseled_warped_planks_top"
+    },
+    {
+      "name": "chiseled_warped_planks_4",
+      "kind": "log",
+      "side": "chiseled_warped_planks_4",
+      "end": "chiseled_warped_planks_top"
+    },
+    {
+      "name": "cut_brown_sandstone",
+      "kind": "bottom_top",
+      "side": "cut_brown_sandstone",
+      "top": "brown_sandstone_top",
+      "bottom": "brown_sandstone_bottom"
+    },
+    {
+      "name": "cut_dark_brown_sandstone",
+      "kind": "bottom_top",
+      "side": "cut_dark_brown_sandstone",
+      "top": "dark_brown_sandstone_top",
+      "bottom": "dark_brown_sandstone_bottom"
+    },
+    {
+      "name": "dark_brown_sand",
+      "kind": "cube",
+      "texture": "dark_brown_sand",
+      "random_y_rotation": true
+    },
+    {
+      "name": "dark_brown_sandstone",
+      "kind": "bottom_top",
+      "side": "dark_brown_sandstone",
+      "top": "dark_brown_sandstone_top",
+      "bottom": "dark_brown_sandstone_bottom",
+      "random_y_rotation": true
+    },
+    {
+      "name": "dark_brown_sandstone_bricks",
+      "kind": "cube",
+      "texture": "dark_brown_sandstone_bricks"
+    },
+    {
+      "name": "dark_brown_sandstone_pillar",
+      "kind": "log",
+      "side": "dark_brown_sandstone_pillar",
+      "end": "dark_brown_sandstone_pillar_top"
+    },
+    {
+      "name": "date_palm_log",
+      "kind": "log",
+      "side": "date_palm_log",
+      "end": "date_palm_log_top"
+    },
+    {
+      "name": "date_palm_planks",
+      "kind": "cube",
+      "texture": "date_palm_planks"
+    },
+    {
+      "name": "date_palm_sapling",
+      "kind": "plant",
+      "texture": "date_palm_sapling",
+      "random_y_rotation": true
+    },
+    {
+      "name": "date_palm_trapdoor",
+      "kind": "trapdoor",
+      "texture": "date_palm_trapdoor"
+    },
+    {
+      "name": "drunite_block",
+      "kind": "cube",
+      "texture": "drunite_block"
+    },
+    {
+      "name": "drunite_ore",
+      "kind": "cube",
+      "texture": "drunite_ore",
+      "random_y_rotation": true
+    },
+    {
+      "name": "fir_leaves",
+      "kind": "leaves",
+      "texture": "fir_leaves",
+      "random_y_rotation": true
+    },
+    {
+      "name": "fir_log",
+      "kind": "log",
+      "side": "fir_log",
+      "end": "fir_log_top"
+    },
+    {
+      "name": "fir_planks",
+      "kind": "cube",
+      "texture": "fir_planks"
+    },
+    {
+      "name": "fir_sapling",
+      "kind": "plant",
+      "texture": "fir_sapling",
+      "random_y_rotation": true
+    },
+    {
+      "name": "fir_stripped_log",
+      "kind": "log",
+      "side": "fir_stripped_log",
+      "end": "stripped_fir_log_top"
+    },
+    {
+      "name": "fir_trapdoor",
+      "kind": "trapdoor",
+      "texture": "fir_trapdoor"
+    },
+    {
+      "name": "fluxroot",
+      "kind": "plant",
+      "texture": "fluxroot",
+      "random_y_rotation": true
+    },
+    {
+      "name": "galberry",
+      "kind": "plant",
+      "texture": "galberry",
+      "random_y_rotation": true
+    },
+    {
+      "name": "galeon_block",
+      "kind": "cube",
+      "texture": "galeon_block"
+    },
+    {
+      "name": "galeon_ore",
+      "kind": "cube",
+      "texture": "galeon_ore",
+      "random_y_rotation": true
+    },
+    {
+      "name": "heather_bush_light_pink",
+      "kind": "plant",
+      "texture": "heather_bush_light_pink",
+      "random_y_rotation": true
+    },
+    {
+      "name": "heather_bush_pink",
+      "kind": "plant",
+      "texture": "heather_bush_pink",
+      "random_y_rotation": true
+    },
+    {
+      "name": "heather_bush_pink_dark",
+      "kind": "plant",
+      "texture": "heather_bush_pink_dark",
+      "random_y_rotation": true
+    },
+    {
+      "name": "heather_bush_white",
+      "kind": "plant",
+      "texture": "heather_bush_white",
+      "random_y_rotation": true
+    },
+    {
+      "name": "hollow_acacia_log",
+      "kind": "hollow",
+      "side": "hollow_acacia_log"
+    },
+    {
+      "name": "hollow_birch_log",
+      "kind": "hollow",
+      "side": "hollow_birch_log"
+    },
+    {
+      "name": "hollow_cherry_log",
+      "kind": "hollow",
+      "side": "hollow_cherry_log"
+    },
+    {
+      "name": "hollow_dark_oak_log",
+      "kind": "hollow",
+      "side": "hollow_dark_oak_log"
+    },
+    {
+      "name": "hollow_fir_log",
+      "kind": "hollow",
+      "side": "hollow_fir_log"
+    },
+    {
+      "name": "hollow_jungle_log",
+      "kind": "hollow",
+      "side": "hollow_jungle_log"
+    },
+    {
+      "name": "hollow_mangrove_log",
+      "kind": "hollow",
+      "side": "hollow_mangrove_log"
+    },
+    {
+      "name": "hollow_mossy_acacia_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_acacia_log"
+    },
+    {
+      "name": "hollow_mossy_birch_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_birch_log"
+    },
+    {
+      "name": "hollow_mossy_cherry_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_cherry_log"
+    },
+    {
+      "name": "hollow_mossy_dark_oak_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_dark_oak_log"
+    },
+    {
+      "name": "hollow_mossy_fir_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_fir_log"
+    },
+    {
+      "name": "hollow_mossy_jungle_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_jungle_log"
+    },
+    {
+      "name": "hollow_mossy_mangrove_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_mangrove_log"
+    },
+    {
+      "name": "hollow_mossy_oak_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_oak_log"
+    },
+    {
+      "name": "hollow_mossy_spruce_log",
+      "kind": "hollow",
+      "side": "hollow_mossy_spruce_log"
+    },
+    {
+      "name": "hollow_oak_log",
+      "kind": "hollow",
+      "side": "hollow_oak_log"
+    },
+    {
+      "name": "hollow_spruce_log",
+      "kind": "hollow",
+      "side": "hollow_spruce_log"
+    },
+    {
+      "name": "larimar_block",
+      "kind": "cube",
+      "texture": "larimar_block",
+      "random_y_rotation": true
+    },
+    {
+      "name": "lightling_block",
+      "kind": "cube",
+      "texture": "lightling_block"
+    },
+    {
+      "name": "lightling_log",
+      "kind": "log",
+      "side": "lightling_log_side",
+      "end": "lightling_log_top"
+    },
+    {
+      "name": "lightling_stripped_log",
+      "kind": "log",
+      "side": "lightling_stripped_log_side",
+      "end": "lightling_stripped_log_top"
+    },
+    {
+      "name": "magmatite_block",
+      "kind": "cube",
+      "texture": "magmatite_block"
+    },
+    {
+      "name": "magmatite_ore",
+      "kind": "cube",
+      "texture": "magmatite_ore",
+      "random_y_rotation": true
+    },
+    {
+      "name": "plasmite_block",
+      "kind": "cube",
+      "texture": "plasmite_block"
+    },
+    {
+      "name": "plasmite_ore",
+      "kind": "cube",
+      "texture": "plasmite_ore",
+      "random_y_rotation": true
+    },
+    {
+      "name": "polished_blueschist",
+      "kind": "cube",
+      "texture": "polished_blueschist"
+    },
+    {
+      "name": "polished_larimar",
+      "kind": "cube",
+      "texture": "polished_larimar"
+    },
+    {
+      "name": "prismatic_spore",
+      "kind": "plant",
+      "texture": "prismatic_spore",
+      "random_y_rotation": true
+    },
+    {
+      "name": "red_sandstone_pillar",
+      "kind": "log",
+      "side": "red_sandstone_pillar",
+      "end": "red_sandstone_pillar_top"
+    },
+    {
+      "name": "ribwort",
+      "kind": "plant",
+      "texture": "ribwort",
+      "random_y_rotation": true
+    },
+    {
+      "name": "sandstone_pillar",
+      "kind": "log",
+      "side": "sandstone_pillar",
+      "end": "sandstone_pillar_top"
+    },
+    {
+      "name": "skunkroot",
+      "kind": "plant",
+      "texture": "skunkroot",
+      "random_y_rotation": true
+    },
+    {
+      "name": "stripped_date_palm_log",
+      "kind": "log",
+      "side": "stripped_date_palm_log",
+      "end": "stripped_date_palm_log_top"
+    },
+    {
+      "name": "stripped_fir_log",
+      "kind": "log",
+      "side": "stripped_fir_log",
+      "end": "stripped_fir_log_top"
+    },
+    {
+      "name": "sun_holly",
+      "kind": "plant",
+      "texture": "sun_holly",
+      "random_y_rotation": true
+    },
+    {
+      "name": "yellow_birch_leaves",
+      "kind": "leaves",
+      "texture": "yellow_birch_leaves",
+      "random_y_rotation": true
+    },
+    {
+      "name": "yellow_birch_sapling",
+      "kind": "plant",
+      "texture": "yellow_birch_sapling",
+      "random_y_rotation": true
+    },
+    {
+      "name": "grassy_blueschist",
+      "kind": "bottom_top",
+      "side": "grassy_blueschist_side",
+      "top": "yellow_grass_block_top",
+      "bottom": "blueschist",
+      "random_y_rotation": true
+    },
+    {
+      "name": "snowy_grassy_blueschist",
+      "kind": "bottom_top",
+      "side": "grassy_blueschist_snow",
+      "top": "minecraft:block/snow",
+      "bottom": "blueschist",
+      "random_y_rotation": true
+    },
+    {
+      "name": "yellow_grass_block",
+      "kind": "bottom_top",
+      "side": "yellow_grass_block_side",
+      "top": "yellow_grass_block_top",
+      "bottom": "minecraft:block/dirt",
+      "random_y_rotation": true
+    },
+    {
+      "name": "fir_door",
+      "kind": "door",
+      "bottom": "fir_door_bottom",
+      "top": "fir_door_top"
+    },
+    {
+      "name": "date_palm_door",
+      "kind": "door",
+      "bottom": "date_palm_door_bottom",
+      "top": "date_palm_door_top"
+    },
+    {
+      "name": "blueschist_boulder",
+      "kind": "boulder",
+      "texture": "blueschist"
+    },
+    {
+      "name": "brown_sandstone_boulder",
+      "kind": "boulder",
+      "texture": "brown_sandstone"
+    },
+    {
+      "name": "dark_brown_sandstone_boulder",
+      "kind": "boulder",
+      "texture": "dark_brown_sandstone"
+    },
+    {
+      "name": "golden_shore_sand",
+      "kind": "shore",
+      "texture": "minecraft:block/sand"
+    },
+    {
+      "name": "blueschist_boulder_piece",
+      "kind": "boulder_piece",
+      "texture": "blueschist"
+    },
+    {
+      "name": "brown_sandstone_boulder_piece",
+      "kind": "boulder_piece",
+      "texture": "brown_sandstone"
+    },
+    {
+      "name": "dark_brown_sandstone_boulder_piece",
+      "kind": "boulder_piece",
+      "texture": "dark_brown_sandstone"
+    },
+    {
+      "name": "blueschist_rock_slab",
+      "kind": "slab",
+      "texture": "blueschist"
+    },
+    {
+      "name": "blueschist_rock_stairs",
+      "kind": "stairs",
+      "texture": "blueschist"
+    },
+    {
+      "name": "brown_sandstone_rock_slab",
+      "kind": "slab",
+      "texture": "brown_sandstone_top"
+    },
+    {
+      "name": "brown_sandstone_rock_stairs",
+      "kind": "stairs",
+      "texture": "brown_sandstone_top"
+    },
+    {
+      "name": "dark_brown_sandstone_rock_slab",
+      "kind": "slab",
+      "texture": "dark_brown_sandstone_top"
+    },
+    {
+      "name": "dark_brown_sandstone_rock_stairs",
+      "kind": "stairs",
+      "texture": "dark_brown_sandstone_top"
+    },
+    {
+      "name": "peach_grass_block",
+      "kind": "cube",
+      "texture": "grass1",
+      "random_y_rotation": true
+    },
+    {
+      "name": "coral_grass_block",
+      "kind": "cube",
+      "texture": "grass3",
+      "random_y_rotation": true
+    },
+    {
+      "name": "violet_grass_block",
+      "kind": "cube",
+      "texture": "grass",
+      "random_y_rotation": true
+    },
+    {
+      "name": "mint_grass_block",
+      "kind": "cube",
+      "texture": "grass4",
+      "random_y_rotation": true
+    },
+    {
+      "name": "lime_grass_block",
+      "kind": "cube",
+      "texture": "grass5",
+      "random_y_rotation": true
+    }
+  ],
+  "items": [
+    {
+      "name": "16x16_bone_lance_16x16",
+      "texture": "16x16/bone_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_diamond_lance_16x16",
+      "texture": "16x16/diamond_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_drunite_lance_16x16",
+      "texture": "16x16/drunite_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_galeon_lance_16x16",
+      "texture": "16x16/galeon_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_golden_lance_16x16",
+      "texture": "16x16/golden_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_iron_lance_16x16",
+      "texture": "16x16/iron_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_living_armor_lance_16x16",
+      "texture": "16x16/living_armor_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_magmatite_lance_16x16",
+      "texture": "16x16/magmatite_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_netherite_lance_16x16",
+      "texture": "16x16/netherite_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_plasmite_lance_16x16",
+      "texture": "16x16/plasmite_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_stone_lance_16x16",
+      "texture": "16x16/stone_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "16x16_wooden_lance_16x16",
+      "texture": "16x16/wooden_lance_16x16",
+      "kind": "item"
+    },
+    {
+      "name": "bone_axe",
+      "texture": "bone_axe",
+      "kind": "axe"
+    },
+    {
+      "name": "bone_hoe",
+      "texture": "bone_hoe",
+      "kind": "hoe"
+    },
+    {
+      "name": "bone_lance",
+      "texture": "bone_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "bone_pickaxe",
+      "texture": "bone_pickaxe",
+      "kind": "pickaxe"
+    },
+    {
+      "name": "bone_shovel",
+      "texture": "bone_shovel",
+      "kind": "shovel"
+    },
+    {
+      "name": "bone_sword",
+      "texture": "bone_sword",
+      "kind": "sword"
+    },
+    {
+      "name": "cooked_boar",
+      "texture": "cooked_boar",
+      "kind": "food"
+    },
+    {
+      "name": "cooked_venison",
+      "texture": "cooked_venison",
+      "kind": "food"
+    },
+    {
+      "name": "crypt_candle",
+      "texture": "crypt_candle",
+      "kind": "item"
+    },
+    {
+      "name": "diamond_lance",
+      "texture": "diamond_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "drunite",
+      "texture": "drunite",
+      "kind": "item"
+    },
+    {
+      "name": "drunite_axe",
+      "texture": "drunite_axe",
+      "kind": "axe"
+    },
+    {
+      "name": "drunite_boots",
+      "texture": "drunite_boots",
+      "kind": "armor"
+    },
+    {
+      "name": "drunite_chestplate",
+      "texture": "drunite_chestplate",
+      "kind": "armor"
+    },
+    {
+      "name": "drunite_helmet",
+      "texture": "drunite_helmet",
+      "kind": "armor"
+    },
+    {
+      "name": "drunite_hoe",
+      "texture": "drunite_hoe",
+      "kind": "hoe"
+    },
+    {
+      "name": "drunite_lance",
+      "texture": "drunite_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "drunite_leggings",
+      "texture": "drunite_leggings",
+      "kind": "armor"
+    },
+    {
+      "name": "drunite_pickaxe",
+      "texture": "drunite_pickaxe",
+      "kind": "pickaxe"
+    },
+    {
+      "name": "drunite_shovel",
+      "texture": "drunite_shovel",
+      "kind": "shovel"
+    },
+    {
+      "name": "drunite_sword",
+      "texture": "drunite_sword",
+      "kind": "sword"
+    },
+    {
+      "name": "fir_boat",
+      "texture": "fir_boat",
+      "kind": "item"
+    },
+    {
+      "name": "fir_chest_boat",
+      "texture": "fir_chest_boat",
+      "kind": "item"
+    },
+    {
+      "name": "fir_hanging_sign",
+      "texture": "fir_hanging_sign",
+      "kind": "item"
+    },
+    {
+      "name": "fir_sign",
+      "texture": "fir_sign",
+      "kind": "item"
+    },
+    {
+      "name": "galeon",
+      "texture": "galeon",
+      "kind": "item"
+    },
+    {
+      "name": "galeon_axe",
+      "texture": "galeon_axe",
+      "kind": "axe"
+    },
+    {
+      "name": "galeon_boots",
+      "texture": "galeon_boots",
+      "kind": "armor"
+    },
+    {
+      "name": "galeon_chestplate",
+      "texture": "galeon_chestplate",
+      "kind": "armor"
+    },
+    {
+      "name": "galeon_helmet",
+      "texture": "galeon_helmet",
+      "kind": "armor"
+    },
+    {
+      "name": "galeon_hoe",
+      "texture": "galeon_hoe",
+      "kind": "hoe"
+    },
+    {
+      "name": "galeon_lance",
+      "texture": "galeon_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "galeon_leggings",
+      "texture": "galeon_leggings",
+      "kind": "armor"
+    },
+    {
+      "name": "galeon_pickaxe",
+      "texture": "galeon_pickaxe",
+      "kind": "pickaxe"
+    },
+    {
+      "name": "galeon_raw",
+      "texture": "galeon_raw",
+      "kind": "item"
+    },
+    {
+      "name": "galeon_shovel",
+      "texture": "galeon_shovel",
+      "kind": "shovel"
+    },
+    {
+      "name": "galeon_sword",
+      "texture": "galeon_sword",
+      "kind": "sword"
+    },
+    {
+      "name": "goblin_drip",
+      "texture": "goblin_drip",
+      "kind": "item"
+    },
+    {
+      "name": "gold_lance",
+      "texture": "gold_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "golden_lance",
+      "texture": "golden_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "iron_lance",
+      "texture": "iron_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "living_armor_boots",
+      "texture": "living_armor_boots",
+      "kind": "item"
+    },
+    {
+      "name": "living_armor_chestplate",
+      "texture": "living_armor_chestplate",
+      "kind": "item"
+    },
+    {
+      "name": "living_armor_helmet",
+      "texture": "living_armor_helmet",
+      "kind": "item"
+    },
+    {
+      "name": "living_armor_lance",
+      "texture": "living_armor_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "living_armor_leggings",
+      "texture": "living_armor_leggings",
+      "kind": "item"
+    },
+    {
+      "name": "living_armor_shard",
+      "texture": "living_armor_shard",
+      "kind": "item"
+    },
+    {
+      "name": "magmatite",
+      "texture": "magmatite",
+      "kind": "item"
+    },
+    {
+      "name": "magmatite_axe",
+      "texture": "magmatite_axe",
+      "kind": "axe"
+    },
+    {
+      "name": "magmatite_hoe",
+      "texture": "magmatite_hoe",
+      "kind": "hoe"
+    },
+    {
+      "name": "magmatite_lance",
+      "texture": "magmatite_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "magmatite_pickaxe",
+      "texture": "magmatite_pickaxe",
+      "kind": "pickaxe"
+    },
+    {
+      "name": "magmatite_shovel",
+      "texture": "magmatite_shovel",
+      "kind": "shovel"
+    },
+    {
+      "name": "magmatite_sword",
+      "texture": "magmatite_sword",
+      "kind": "sword"
+    },
+    {
+      "name": "metal_pole",
+      "texture": "metal_pole",
+      "kind": "item"
+    },
+    {
+      "name": "netherite_lance",
+      "texture": "netherite_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "plasmite",
+      "texture": "plasmite",
+      "kind": "item"
+    },
+    {
+      "name": "plasmite_axe",
+      "texture": "plasmite_axe",
+      "kind": "axe"
+    },
+    {
+      "name": "plasmite_boots",
+      "texture": "plasmite_boots",
+      "kind": "armor"
+    },
+    {
+      "name": "plasmite_chestplate",
+      "texture": "plasmite_chestplate",
+      "kind": "armor"
+    },
+    {
+      "name": "plasmite_helmet",
+      "texture": "plasmite_helmet",
+      "kind": "armor"
+    },
+    {
+      "name": "plasmite_hoe",
+      "texture": "plasmite_hoe",
+      "kind": "hoe"
+    },
+    {
+      "name": "plasmite_lance",
+      "texture": "plasmite_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "plasmite_leggings",
+      "texture": "plasmite_leggings",
+      "kind": "armor"
+    },
+    {
+      "name": "plasmite_pickaxe",
+      "texture": "plasmite_pickaxe",
+      "kind": "pickaxe"
+    },
+    {
+      "name": "plasmite_shovel",
+      "texture": "plasmite_shovel",
+      "kind": "shovel"
+    },
+    {
+      "name": "plasmite_sword",
+      "texture": "plasmite_sword",
+      "kind": "sword"
+    },
+    {
+      "name": "raw_boar",
+      "texture": "raw_boar",
+      "kind": "food"
+    },
+    {
+      "name": "raw_galeon",
+      "texture": "raw_galeon",
+      "kind": "item"
+    },
+    {
+      "name": "raw_venison",
+      "texture": "raw_venison",
+      "kind": "food"
+    },
+    {
+      "name": "stone_lance",
+      "texture": "stone_lance",
+      "kind": "lance"
+    },
+    {
+      "name": "wooden_lance",
+      "texture": "wooden_lance",
+      "kind": "lance"
+    }
+  ],
+  "creatures": [
+    "boar",
+    "bull",
+    "deer",
+    "drippy_goblin",
+    "fire_goblin",
+    "goblin_merchant",
+    "goblin_minor",
+    "lightling",
+    "magmafiend",
+    "portal_guardian",
+    "sandstalker"
+  ],
+  "textures": [
+    "block/blueschist",
+    "block/blueschist_bricks",
+    "block/blueschist_wind_gate_horizontal",
+    "block/blueschist_wind_gate_vertical",
+    "block/brown_sand",
+    "block/brown_sandstone",
+    "block/brown_sandstone_bottom",
+    "block/brown_sandstone_bricks",
+    "block/brown_sandstone_pillar",
+    "block/brown_sandstone_pillar_top",
+    "block/brown_sandstone_top",
+    "block/chiseled_acacia_planks_1",
+    "block/chiseled_acacia_planks_2",
+    "block/chiseled_acacia_planks_3",
+    "block/chiseled_acacia_planks_4",
+    "block/chiseled_acacia_planks_top",
+    "block/chiseled_bamboo_planks_1",
+    "block/chiseled_bamboo_planks_2",
+    "block/chiseled_bamboo_planks_3",
+    "block/chiseled_bamboo_planks_4",
+    "block/chiseled_bamboo_planks_top",
+    "block/chiseled_birch_planks_1",
+    "block/chiseled_birch_planks_2",
+    "block/chiseled_birch_planks_3",
+    "block/chiseled_birch_planks_4",
+    "block/chiseled_birch_planks_top",
+    "block/chiseled_blueschist_bricks",
+    "block/chiseled_brown_sandstone",
+    "block/chiseled_cherry_planks_1",
+    "block/chiseled_cherry_planks_2",
+    "block/chiseled_cherry_planks_3",
+    "block/chiseled_cherry_planks_4",
+    "block/chiseled_cherry_planks_top",
+    "block/chiseled_crimson_planks_1",
+    "block/chiseled_crimson_planks_2",
+    "block/chiseled_crimson_planks_3",
+    "block/chiseled_crimson_planks_4",
+    "block/chiseled_crimson_planks_top",
+    "block/chiseled_cursed_planks_1",
+    "block/chiseled_cursed_planks_2",
+    "block/chiseled_cursed_planks_3",
+    "block/chiseled_cursed_planks_4",
+    "block/chiseled_cursed_planks_top",
+    "block/chiseled_dark_brown_sandstone",
+    "block/chiseled_dark_oak_planks_1",
+    "block/chiseled_dark_oak_planks_2",
+    "block/chiseled_dark_oak_planks_3",
+    "block/chiseled_dark_oak_planks_4",
+    "block/chiseled_dark_oak_planks_top",
+    "block/chiseled_date_palm_planks_1",
+    "block/chiseled_date_palm_planks_2",
+    "block/chiseled_date_palm_planks_3",
+    "block/chiseled_date_palm_planks_4",
+    "block/chiseled_date_palm_planks_top",
+    "block/chiseled_fir_planks_1",
+    "block/chiseled_fir_planks_2",
+    "block/chiseled_fir_planks_3",
+    "block/chiseled_fir_planks_4",
+    "block/chiseled_fir_planks_top",
+    "block/chiseled_jungle_planks_1",
+    "block/chiseled_jungle_planks_2",
+    "block/chiseled_jungle_planks_3",
+    "block/chiseled_jungle_planks_4",
+    "block/chiseled_jungle_planks_top",
+    "block/chiseled_mangrove_planks_1",
+    "block/chiseled_mangrove_planks_2",
+    "block/chiseled_mangrove_planks_3",
+    "block/chiseled_mangrove_planks_4",
+    "block/chiseled_mangrove_planks_top",
+    "block/chiseled_oak_planks_1",
+    "block/chiseled_oak_planks_2_side",
+    "block/chiseled_oak_planks_3_side",
+    "block/chiseled_oak_planks_4_side",
+    "block/chiseled_oak_planks_top",
+    "block/chiseled_spruce_planks_1",
+    "block/chiseled_spruce_planks_2",
+    "block/chiseled_spruce_planks_3",
+    "block/chiseled_spruce_planks_4",
+    "block/chiseled_spruce_planks_top",
+    "block/chiseled_warped_planks_1",
+    "block/chiseled_warped_planks_2",
+    "block/chiseled_warped_planks_3",
+    "block/chiseled_warped_planks_4",
+    "block/chiseled_warped_planks_top",
+    "block/cut_brown_sandstone",
+    "block/cut_dark_brown_sandstone",
+    "block/dark_brown_sand",
+    "block/dark_brown_sandstone",
+    "block/dark_brown_sandstone_bottom",
+    "block/dark_brown_sandstone_bricks",
+    "block/dark_brown_sandstone_pillar",
+    "block/dark_brown_sandstone_pillar_top",
+    "block/dark_brown_sandstone_top",
+    "block/date_palm_door_bottom",
+    "block/date_palm_door_top",
+    "block/date_palm_log",
+    "block/date_palm_log_top",
+    "block/date_palm_planks",
+    "block/date_palm_sapling",
+    "block/date_palm_trapdoor",
+    "block/drunite_block",
+    "block/drunite_ore",
+    "block/fir_door",
+    "block/fir_door_bottom",
+    "block/fir_door_top",
+    "block/fir_leaves",
+    "block/fir_log",
+    "block/fir_log_top",
+    "block/fir_planks",
+    "block/fir_sapling",
+    "block/fir_stripped_log",
+    "block/fir_trapdoor",
+    "block/fluxroot",
+    "block/galberry",
+    "block/galeon_block",
+    "block/galeon_ore",
+    "block/grassy_blueschist_side",
+    "block/grassy_blueschist_snow",
+    "block/heather_bush_light_pink",
+    "block/heather_bush_pink",
+    "block/heather_bush_pink_dark",
+    "block/heather_bush_white",
+    "block/hollow_acacia_log",
+    "block/hollow_birch_log",
+    "block/hollow_cherry_log",
+    "block/hollow_dark_oak_log",
+    "block/hollow_fir_log",
+    "block/hollow_jungle_log",
+    "block/hollow_mangrove_log",
+    "block/hollow_mossy_acacia_log",
+    "block/hollow_mossy_birch_log",
+    "block/hollow_mossy_cherry_log",
+    "block/hollow_mossy_dark_oak_log",
+    "block/hollow_mossy_fir_log",
+    "block/hollow_mossy_jungle_log",
+    "block/hollow_mossy_mangrove_log",
+    "block/hollow_mossy_oak_log",
+    "block/hollow_mossy_spruce_log",
+    "block/hollow_oak_log",
+    "block/hollow_spruce_log",
+    "block/larimar_block",
+    "block/lightling_block",
+    "block/lightling_log",
+    "block/lightling_log_side",
+    "block/lightling_log_top",
+    "block/lightling_stripped_log",
+    "block/lightling_stripped_log_side",
+    "block/lightling_stripped_log_top",
+    "block/magmatite_block",
+    "block/magmatite_ore",
+    "block/plasmite_block",
+    "block/plasmite_ore",
+    "block/polished_blueschist",
+    "block/polished_larimar",
+    "block/prismatic_spore",
+    "block/red_sandstone_pillar",
+    "block/red_sandstone_pillar_top",
+    "block/ribwort",
+    "block/sandstone_pillar",
+    "block/sandstone_pillar_top",
+    "block/skunkroot",
+    "block/stripped_date_palm_log",
+    "block/stripped_date_palm_log_top",
+    "block/stripped_fir_log",
+    "block/stripped_fir_log_top",
+    "block/sun_holly",
+    "block/yellow_birch_leaves",
+    "block/yellow_birch_sapling",
+    "block/yellow_grass_block_side",
+    "block/yellow_grass_block_top",
+    "entity/boar",
+    "entity/boat/fir",
+    "entity/bull",
+    "entity/chest_boat/fir",
+    "entity/deer",
+    "entity/drippy_goblin",
+    "entity/fire_goblin",
+    "entity/goblin_merchant",
+    "entity/goblin_minor",
+    "entity/lightling",
+    "entity/magmafiend",
+    "entity/magmafiend_fireball",
+    "entity/portal_guardian",
+    "entity/sandstalker",
+    "entity/signs/fir",
+    "entity/signs/hanging/fir",
+    "item/16x16/bone_lance_16x16",
+    "item/16x16/diamond_lance_16x16",
+    "item/16x16/drunite_lance_16x16",
+    "item/16x16/galeon_lance_16x16",
+    "item/16x16/golden_lance_16x16",
+    "item/16x16/iron_lance_16x16",
+    "item/16x16/living_armor_lance_16x16",
+    "item/16x16/magmatite_lance_16x16",
+    "item/16x16/netherite_lance_16x16",
+    "item/16x16/plasmite_lance_16x16",
+    "item/16x16/stone_lance_16x16",
+    "item/16x16/wooden_lance_16x16",
+    "item/bone_axe",
+    "item/bone_hoe",
+    "item/bone_lance",
+    "item/bone_pickaxe",
+    "item/bone_shovel",
+    "item/bone_sword",
+    "item/cooked_boar",
+    "item/cooked_venison",
+    "item/crypt_candle",
+    "item/date_palm_door",
+    "item/diamond_lance",
+    "item/drunite",
+    "item/drunite_axe",
+    "item/drunite_block",
+    "item/drunite_boots",
+    "item/drunite_chestplate",
+    "item/drunite_helmet",
+    "item/drunite_hoe",
+    "item/drunite_lance",
+    "item/drunite_leggings",
+    "item/drunite_pickaxe",
+    "item/drunite_shovel",
+    "item/drunite_sword",
+    "item/fir_boat",
+    "item/fir_chest_boat",
+    "item/fir_door",
+    "item/fir_hanging_sign",
+    "item/fir_sapling",
+    "item/fir_sign",
+    "item/galeon",
+    "item/galeon_axe",
+    "item/galeon_boots",
+    "item/galeon_chestplate",
+    "item/galeon_helmet",
+    "item/galeon_hoe",
+    "item/galeon_lance",
+    "item/galeon_leggings",
+    "item/galeon_pickaxe",
+    "item/galeon_raw",
+    "item/galeon_shovel",
+    "item/galeon_sword",
+    "item/goblin_drip",
+    "item/gold_lance",
+    "item/golden_lance",
+    "item/iron_lance",
+    "item/living_armor_boots",
+    "item/living_armor_chestplate",
+    "item/living_armor_helmet",
+    "item/living_armor_lance",
+    "item/living_armor_leggings",
+    "item/living_armor_shard",
+    "item/magmatite",
+    "item/magmatite_axe",
+    "item/magmatite_hoe",
+    "item/magmatite_lance",
+    "item/magmatite_pickaxe",
+    "item/magmatite_shovel",
+    "item/magmatite_sword",
+    "item/metal_pole",
+    "item/netherite_lance",
+    "item/plasmite",
+    "item/plasmite_axe",
+    "item/plasmite_boots",
+    "item/plasmite_chestplate",
+    "item/plasmite_helmet",
+    "item/plasmite_hoe",
+    "item/plasmite_lance",
+    "item/plasmite_leggings",
+    "item/plasmite_pickaxe",
+    "item/plasmite_shovel",
+    "item/plasmite_sword",
+    "item/raw_boar",
+    "item/raw_galeon",
+    "item/raw_venison",
+    "item/stone_lance",
+    "item/wooden_lance",
+    "item/yellow_birch_sapling",
+    "models/armor/drunite_layer_1",
+    "models/armor/drunite_layer_2",
+    "models/armor/extra_layer_1",
+    "models/armor/extra_layer_2",
+    "models/armor/galeon_layer_1",
+    "models/armor/galeon_layer_2",
+    "models/armor/plasmite_layer_1",
+    "models/armor/plasmite_layer_2",
+    "trims/color_palettes/drunite",
+    "trims/color_palettes/drunite_darker",
+    "trims/color_palettes/galeon",
+    "trims/color_palettes/galeon_darker",
+    "trims/color_palettes/magmatite",
+    "trims/color_palettes/magmatite_darker",
+    "trims/color_palettes/plasmite",
+    "trims/color_palettes/plasmite_darker",
+    "block/grass1",
+    "block/grass3",
+    "block/grass",
+    "block/grass4",
+    "block/grass5"
+  ],
+  "boulder_shape": [
+    [
+      1,
+      0,
+      2,
+      14,
+      4,
+      14
+    ],
+    [
+      3,
+      4,
+      3,
+      12,
+      7,
+      12
+    ],
+    [
+      4,
+      7,
+      4,
+      11,
+      8,
+      11
+    ],
+    [
+      12,
+      0,
+      0,
+      16,
+      3,
+      5
+    ]
+  ]
+}

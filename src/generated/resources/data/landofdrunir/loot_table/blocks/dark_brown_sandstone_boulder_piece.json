@@ -1,0 +1,513 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+          "properties": {
+            "form": "0"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "landofdrunir:dark_brown_sandstone_tiny_rounded_boulder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "3"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "4"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "5"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 6,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "6"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 7,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "7"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 8,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "8"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+          "properties": {
+            "form": "1"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "landofdrunir:dark_brown_sandstone_tiny_crag_boulder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "3"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "4"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "5"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 6,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "6"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 7,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "7"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 8,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "8"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+          "properties": {
+            "form": "2"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "landofdrunir:dark_brown_sandstone_tiny_flat_boulder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "3"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "4"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "5"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 6,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "6"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 7,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "7"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 8,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "8"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+          "properties": {
+            "form": "3"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "landofdrunir:dark_brown_sandstone_tiny_cluster_boulder",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "2"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 3,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "3"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 4,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "4"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "5"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 6,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "6"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 7,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "7"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 8,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "landofdrunir:dark_brown_sandstone_boulder_piece",
+                  "properties": {
+                    "layers": "8"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
