@@ -55,7 +55,8 @@ class ResourceGenerationTest(unittest.TestCase):
             root = Path(temporary)
             output = root / 'generated'
             with patch.object(generate_resources, 'OUTPUT', output):
-                for path in ('../escaped.json', str(root / 'absolute.json')):
+                for path in ('../escaped.json', str(root / 'absolute.json'),
+                             r'..\windows-escape.json', r'C:\escaped.json', 'C:/escaped.json'):
                     with self.assertRaisesRegex(ValueError, 'generated directory'):
                         generate_resources.write(path, {})
             self.assertFalse((root / 'escaped.json').exists())
